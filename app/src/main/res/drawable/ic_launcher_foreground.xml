@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Soft Glow Behind TV Bezel -->
+    <path
+        android:fillColor="#1800E5FF"
+        android:pathData="M26,27h56c3.87,0 7,3.13 7,7v32c0,3.87 -3.13,7 -7,7h-56c-3.87,0 -7,-3.13 -7,-7v-32c0,-3.87 3.13,-7 7,-7z" />
+
+    <!-- 16:9 TV Outer Gradient Frame -->
+    <path android:pathData="M27,29h54c3.31,0 6,2.69 6,6v30c0,3.31 -2.69,6 -6,6h-54c-3.31,0 -6,-2.69 -6,-6v-30c0,-3.31 2.69,-6 6,-6z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="87"
+                android:endY="71"
+                android:startX="21"
+                android:startY="29"
+                android:type="linear">
+                <item
+                    android:color="#00E5FF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#00B8D4"
+                    android:offset="0.5" />
+                <item
+                    android:color="#05E777"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- TV Inner Screen Dark Glass -->
+    <path
+        android:fillColor="#0D121D"
+        android:pathData="M28,31.5h52c2.21,0 4,1.79 4,4v29c0,2.21 -1.79,4 -4,4h-52c-2.21,0 -4,-1.79 -4,-4v-29c0,-2.21 1.79,-4 4,-4z" />
+
+    <!-- Subtle Clock Arc Ring Inside Screen -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,36 A14,14 0 1,1 40,50"
+        android:strokeWidth="1.5"
+        android:strokeColor="#3300E5FF"
+        android:strokeLineCap="round" />
+
+    <!-- Clock Hands Hint (Top-Right Quadrant) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,43 L54,50 L59,50"
+        android:strokeWidth="1.4"
+        android:strokeColor="#4D7DFFA2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Dynamic ECG / Screen Time Pulse Waveform (Glow Layer) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M28,53 L39,53 L43.5,45 L48.5,60 L54.5,38 L60,57 L64.5,48 L69,53 L80,53"
+        android:strokeWidth="5.0"
+        android:strokeColor="#3800E5FF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Dynamic ECG / Screen Time Pulse Waveform (Core Gradient Stroke) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M28,53 L39,53 L43.5,45 L48.5,60 L54.5,38 L60,57 L64.5,48 L69,53 L80,53"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:endX="80"
+                android:endY="53"
+                android:startX="28"
+                android:startY="53"
+                android:type="linear">
+                <item
+                    android:color="#00E5FF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#C3F5FF"
+                    android:offset="0.48" />
+                <item
+                    android:color="#7DFFA2"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Pulse Peak Highlight Dot -->
+    <path
+        android:fillColor="#7DFFA2"
+        android:pathData="M54.5,38m-2.3,0a2.3,2.3 0,1 1,4.6 0a2.3,2.3 0,1 1,-4.6 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54.5,38m-1.0,0a1.0,1.0 0,1 1,2.0 0a1.0,1.0 0,1 1,-2.0 0" />
+
+    <!-- Sleek Floating TV Stand Neck & Base -->
+    <path
+        android:fillColor="#00B8D4"
+        android:pathData="M51,71h6v4h-6z" />
+    <path android:pathData="M41,75h26c1.1,0 2,0.9 2,2v0.5c0,1.1 -0.9,2 -2,2h-26c-1.1,0 -2,-0.9 -2,-2v-0.5c0,-1.1 0.9,-2 2,-2z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="69"
+                android:endY="77"
+                android:startX="39"
+                android:startY="77"
+                android:type="linear">
+                <item
+                    android:color="#00E5FF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#7DFFA2"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>

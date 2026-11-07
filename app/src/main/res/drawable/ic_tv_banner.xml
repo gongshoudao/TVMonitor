@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <!-- Deep Obsidian 16:9 Banner Background -->
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="320"
+                android:endY="180"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item
+                    android:color="#0A0E17"
+                    android:offset="0.0" />
+                <item
+                    android:color="#141B29"
+                    android:offset="0.55" />
+                <item
+                    android:color="#0F1722"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ambient Glow Circles -->
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="78"
+                android:centerY="88"
+                android:endColor="#0000E5FF"
+                android:gradientRadius="95"
+                android:startColor="#2E00E5FF"
+                android:type="radial" />
+        </aapt:attr>
+    </path>
+
+    <!-- Left Emblem: 16:9 TV + Pulse Waveform -->
+    <path android:pathData="M38,48h76c4.42,0 8,3.58 8,8v48c0,4.42 -3.58,8 -8,8h-76c-4.42,0 -8,-3.58 -8,-8v-48c0,-4.42 3.58,-8 8,-8z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="122"
+                android:endY="112"
+                android:startX="30"
+                android:startY="48"
+                android:type="linear">
+                <item
+                    android:color="#00E5FF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#05E777"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:fillColor="#0B101A"
+        android:pathData="M39,51h74c2.76,0 5,2.24 5,5v44c0,2.76 -2.24,5 -5,5h-74c-2.76,0 -5,-2.24 -5,-5v-44c0,-2.76 2.24,-5 5,-5z" />
+
+    <!-- Pulse Waveform inside Banner TV Icon -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M40,82 L56,82 L63,70 L70,94 L79,59 L87,89 L94,74 L101,82 L112,82"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:endX="112"
+                android:endY="82"
+                android:startX="40"
+                android:startY="82"
+                android:type="linear">
+                <item
+                    android:color="#00E5FF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#7DFFA2"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:fillColor="#7DFFA2"
+        android:pathData="M79,59m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+
+    <!-- TV Stand Base -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M71,112h10v6h-10z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M56,118h40c1.66,0 3,1.34 3,3s-1.34,3 -3,3h-40c-1.66,0 -3,-1.34 -3,-3s1.34,-3 3,-3z" />
+
+    <!-- Right Decorative Analytics Bars & Brand Accent -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M148,66h72c2.2,0 4,1.8 4,4s-1.8,4 -4,4h-72c-2.2,0 -4,-1.8 -4,-4s1.8,-4 4,-4z" />
+    <path
+        android:fillColor="#7DFFA2"
+        android:pathData="M148,84h110c2.2,0 4,1.8 4,4s-1.8,4 -4,4h-110c-2.2,0 -4,-1.8 -4,-4s1.8,-4 4,-4z" />
+    <path
+        android:fillColor="#31353F"
+        android:pathData="M148,102h136c2.2,0 4,1.8 4,4s-1.8,4 -4,4h-136c-2.2,0 -4,-1.8 -4,-4s1.8,-4 4,-4z" />
+    <path
+        android:fillColor="#FFBA38"
+        android:pathData="M148,102h58c2.2,0 4,1.8 4,4s-1.8,4 -4,4h-58c-2.2,0 -4,-1.8 -4,-4s1.8,-4 4,-4z" />
+
+</vector>
